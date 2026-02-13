@@ -1,0 +1,114 @@
+/* =========================
+   GENERAL BODY
+========================= */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+    background-color: #1a1a2e;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a {
+    color: #ffffff;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #f0a500;
+}
+
+/* =========================
+   MAIN CONTENT CARD
+========================= */
+#mainContent {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+#mainContent h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+#mainContent p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#mainContent ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#mainContent li {
+    margin-bottom: 0.5rem;
+}
+
+/* =========================
+   INFO ALERT
+========================= */
+#infoAlert {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.btn {
+    border-radius: 8px;
+    padding: 0.6rem 1.4rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #046ffc;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #034ed8;
+    color: #1a1a2e;
+}
