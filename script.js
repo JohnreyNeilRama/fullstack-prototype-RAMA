@@ -37,8 +37,8 @@ function loadFromStorage() {
         {
           firstName: "Admin",
           lastName: "User",
-          email: "admin@gmail.com",
-          password: "admin123",
+          email: "admin@example.com",
+          password: "Password123!",
           role: "Admin",
           verified: true
         }
